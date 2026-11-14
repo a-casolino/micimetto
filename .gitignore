@@ -1,0 +1,34 @@
+# Ambiente e segreti
+.env
+.env.*
+!.env.example
+wp-config.php
+
+# WordPress Core & Uploads (tracciamo solo tema child, plugin custom, config ed export)
+wp-admin/
+wp-includes/
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/advanced-cache.php
+wp-content/object-cache.php
+wp-content/backup-db/
+wp-content/backups/
+
+# Plugin di terze parti e tema padre (bricks)
+wp-content/themes/bricks/
+wp-content/themes/twentytwenty*/
+
+# Dipendenze e build temporanei
+node_modules/
+vendor/
+*.log
+npm-debug.log*
+
+# Sistema Operativo & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
