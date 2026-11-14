@@ -1,0 +1,132 @@
+/*
+ Theme Name:   Bricks Child Theme
+ Theme URI:    https://bricksbuilder.io/
+ Description:  Use this child theme to extend Bricks.
+ Author:       Bricks
+ Author URI:   https://bricksbuilder.io/
+ Template:     bricks
+ Version:      1.1
+ Text Domain:  bricks
+*/
+
+/*  ==========================
+//  Gestione ingredienti button
+//  ==========================
+*/
+
+#brxe-swbtte .ingredientiButton{
+    opacity: 0;
+    transition: opacity 0.5s ease 1s;
+  }
+  
+#brxe-swbtte .ingredientiButton.show{
+  opacity: 1;
+  }
+
+#brxe-swbtte{
+    overflow: hidden;
+    transition:height 0.5s ease;
+}
+
+
+#brxe-swbtte .on{
+  display: none;
+}
+
+/*  ==========================
+//  Display header bar only on single ricetta
+//  ==========================
+*/
+
+#brxe-kzjmdh{
+  display: none;
+}
+
+.single-ricetta #brxe-kzjmdh{
+  display: flex;
+}
+
+/*  ==========================
+//  Gradient headline
+//  ==========================
+*/
+
+.gradient-headline {
+  background-image: linear-gradient(45deg, #800031, #CC004E, #800031);
+  background-size: 200% 200%;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: gradientAnimation 10s linear infinite;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+/*  ==========================
+//  Nascondo i container vuoti
+//  ==========================
+*/
+
+.single .video-gallery-holder,
+.single .step-ingredients{
+  display: none !important;
+}
+
+.single .step-ingredients:has(.step-ingredient) {
+  display: flex !important;
+}
+
+.single .video-gallery-holder,
+.single .step-ingredients{
+  display: none !important;
+}
+
+.single .video-gallery-holder:has(a){
+  display: grid !important;
+}
+
+.brxe-image-gallery a::after,
+.video-gallery-holder a::after {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.2);
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: themify;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 1;
+  text-transform: none;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.video-gallery-holder a{
+  position: relative;
+}
+
+.brxe-image-gallery a::after{
+  content: "\e611";
+}
+.video-gallery-holder a::after {
+  content:"\e6ad";
+}

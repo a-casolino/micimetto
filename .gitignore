@@ -3,6 +3,7 @@
 .env.*
 !.env.example
 wp-config.php
+.agents/
 
 # WordPress Core & Uploads (tracciamo solo tema child, plugin custom, config ed export)
 wp-admin/
