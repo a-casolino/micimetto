@@ -1,5 +1,7 @@
 # Roadmap di Refactoring — Mi ci metto
 
+> Le fasi 3–5 descrivono il refactoring WordPress + Bricks. [ADR-002](./adr/002-payload-next-xcloud.md) le ritira: il sito nuovo è Payload 3 + Next.js, sullo stesso server xCloud. Questo file resta come storico delle fasi 1 e 2.
+
 ## Fase 1 — Repository, Audit e Documentazione ✅
 - [x] Audit completo del sito live (`https://micimetto.acasolino.com`)
 - [x] Inizializzazione repository Git (`main`)

@@ -2,7 +2,8 @@
 
 > **Sito live:** [https://micimetto.acasolino.com](https://micimetto.acasolino.com)  
 > **Autore:** Antonio Casolino  
-> **Stack:** WordPress + Bricks Builder (`bricks-child` + funzionalità custom) su hosting **xCloud**
+> **Stack vigente:** Payload 3 + Next.js su Node, stesso server **xCloud** ([ADR-002](./docs/adr/002-payload-next-xcloud.md))  
+> **Stack live oggi:** WordPress + Bricks, finché il dominio non viene spostato
 
 ---
 
@@ -26,7 +27,8 @@ micimetto/
 │   ├── 04-specifiche-funzionali.md        # Specifiche dei 4 moduli interattivi + SEO JSON-LD
 │   ├── roadmap.md                         # Piano di lavoro diviso per fasi
 │   └── adr/                               # Architecture Decision Records (decisioni storiche)
-│       └── 001-strategia-refactoring-wp.md
+│       ├── 001-strategia-refactoring-wp.md
+│       └── 002-payload-next-xcloud.md
 ├── exports/                               # Export versionati di Bricks Templates e Custom Fields (ACF/MetaBox)
 │   ├── bricks-templates/
 │   └── custom-fields/
@@ -50,4 +52,5 @@ micimetto/
    - Modalità "Cooking Mode" full-screen
    - Generazione automatica `Schema.org/Recipe` (JSON-LD)
 5. [Roadmap di Refactoring](./docs/roadmap.md) — Stato di avanzamento dei lavori.
-6. [ADR-001: Strategia di Refactoring](./docs/adr/001-strategia-refactoring-wp.md) — Motivazioni dietro le scelte architetturali.
+6. [ADR-001: Strategia WordPress + Bricks](./docs/adr/001-strategia-refactoring-wp.md) — Decisione superata, tenuta come storico.
+7. [ADR-002: Payload e Next.js su xCloud](./docs/adr/002-payload-next-xcloud.md) — Decisione vigente.

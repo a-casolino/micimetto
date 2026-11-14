@@ -1,6 +1,6 @@
 # ADR 001 — Strategia di Refactoring su WordPress + Bricks (xCloud)
 
-- **Stato:** Approvato
+- **Stato:** Superato da [ADR-002](./002-payload-next-xcloud.md)
 - **Data:** 14 Novembre 2026
 - **Decisori:** Antonio Casolino
 
