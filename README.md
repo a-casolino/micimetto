@@ -1,5 +1,8 @@
 # Mi ci metto — Repository di Progetto
 
+> [!IMPORTANT]
+> **Repository archiviato.** Il progetto *Mi ci metto* continua in [`a-casolino/micimetto-app`](https://github.com/a-casolino/micimetto-app) (Payload CMS + Next.js), come deciso nell'[ADR-002](https://github.com/a-casolino/micimetto-app/blob/main/docs/adr/002-migrazione-payload-nextjs.md), che supera l'[ADR-001](./docs/adr/001-strategia-refactoring-wp.md). I documenti ancora validi (audit, modello dati, Design System, specifiche ed export) sono stati copiati in [`micimetto-app/docs/riferimento/`](https://github.com/a-casolino/micimetto-app/tree/main/docs/riferimento). Questo repository resta in sola lettura come archivio del sito WordPress + Bricks.
+
 > **Sito live:** [https://micimetto.acasolino.com](https://micimetto.acasolino.com)  
 > **Autore:** Antonio Casolino  
 > **Stack:** WordPress + Bricks Builder (`bricks-child` + funzionalità custom) su hosting **xCloud**
@@ -50,4 +53,4 @@ micimetto/
    - Modalità "Cooking Mode" full-screen
    - Generazione automatica `Schema.org/Recipe` (JSON-LD)
 5. [Roadmap di Refactoring](./docs/roadmap.md) — Stato di avanzamento dei lavori.
-6. [ADR-001: Strategia di Refactoring](./docs/adr/001-strategia-refactoring-wp.md) — Motivazioni dietro le scelte architetturali.
+6. [ADR-001: Strategia di Refactoring](./docs/adr/001-strategia-refactoring-wp.md) — Motivazioni dietro le scelte architetturali (**superato** dall'ADR-002 in `micimetto-app`).
