@@ -1,8 +1,10 @@
 # ADR 001 — Strategia di Refactoring su WordPress + Bricks (xCloud)
 
-- **Stato:** Approvato
+- **Stato:** Superato da [ADR-002](https://github.com/a-casolino/micimetto-app/blob/main/docs/adr/002-migrazione-payload-nextjs.md) (15 Novembre 2026)
 - **Data:** 14 Novembre 2026
 - **Decisori:** Antonio Casolino
+
+> **Superato.** Il 15 Novembre 2026 si è deciso di proseguire il progetto come nuova applicazione Payload CMS + Next.js nel repository [`a-casolino/micimetto-app`](https://github.com/a-casolino/micimetto-app). Vedi l'[ADR-002](https://github.com/a-casolino/micimetto-app/blob/main/docs/adr/002-migrazione-payload-nextjs.md).
 
 ---
 
